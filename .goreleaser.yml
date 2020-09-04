@@ -29,7 +29,7 @@ release:
 brews:
   - tap:
       owner: moricho
-      name: tparallel
+      name: homebrew-tparallel
     folder: Formula
     homepage: https://github.com/moricho/tparallel
     description: tparallel detects inappropriate usage of t.Parallel() method in your Go test codes

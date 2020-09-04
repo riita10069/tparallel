@@ -26,3 +26,12 @@ archives:
         format: zip
 release:
   prerelease: auto
+brews:
+  - tap:
+      owner: moricho
+      name: tparallel
+    folder: Formula
+    homepage: https://github.com/moricho/tparallel
+    description: tparallel detects inappropriate usage of t.Parallel() method in your Go test codes
+    test: |
+      system "#{bin}/goreleaser -v"
